@@ -1,0 +1,22 @@
+{
+  "name": "shopping",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce Application",
+  "license": "ISC",
+  "author": "sagar kumar behera",
+  "main": "app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/app.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
